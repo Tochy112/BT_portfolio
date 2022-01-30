@@ -1,0 +1,125 @@
+#tochy{
+    font-family:cursive;
+}
+#intro{
+    background-image: url(../images/photo-1510915228340-29c85a43dcfe.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: HD 20s alternate infinite;
+    opacity: 0.85;
+    margin-top: 50px; 
+    height: 100vh;
+}
+#gif{
+    cursor: pointer;
+}
+#about{
+    padding-top: 100px !important;
+     
+}
+#services{
+    padding-top: 100px !important;
+}
+#about{
+    padding-top: 100px !important;
+}
+#section{
+    padding-top: 100px !important;
+}
+#contact{
+    background-color: #6C63FF;
+    padding-top: 100px !important;
+}
+#gif{
+    border-radius: 50px;
+}
+#works-card{
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out ;
+    cursor: pointer;
+}
+#works-card:hover{
+   transform: translateY(-10px);
+}
+#img{
+    border-radius: 10px;
+}
+
+
+
+@keyframes HD{
+    0%{
+        background-image: url(../images/photo-1510915228340-29c85a43dcfe.jpeg);
+    }
+    20%{
+        background-image: url(../images/photo-1522071820081-009f0129c71c.jpeg);
+    }
+     35%{
+        background-image: url(../images/photo-1510915228340-29c85a43dcfe.jpeg);
+    }
+    50%{
+        background-image: url(../images/photo-1534665482403-a909d0d97c67.jpeg);
+    }
+    65%{
+        background-image: url(../images/photo-1536148935331-408321065b18.jpeg);
+    }
+    75%{
+        background-image: url(../images/photo-1549692520-acc6669e2f0c.jpeg);
+    }
+    100%{
+        background-image: url(../images/photo-1523800503107-5bc3ba2a6f81.jpeg);
+    }
+}
+.dev{
+    color: #6C63FF;
+}
+#icons img{
+    border-radius: 20px;
+}
+#button{
+    background-color:#6C63FF;
+    color: #fff;
+    transition: all 0.5s ease-in-out ;
+}
+#button:hover{
+    transform: translateY(-3px);
+    color: #000;
+}
+#intro-body{
+    padding-top: 10% !important;
+}
+#star{
+    color: #6C63FF;
+}
+#scroll-up{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 10px 0;
+    animation: scroll 1s alternate;
+}
+#scroll-up:hover{
+    transform: translateY(-3px);
+    transition: 1s all alternate ease-in-out;
+}
+
+
+
+@media (max-width: 420px){
+    body{
+        width: 150% !important;
+    }
+    #works-card{
+        width: 100%
+    }
+}
+
+@media (max-width: 280px){
+    body{
+        width: 180% !important;
+    }
+}
+
+
+
+
